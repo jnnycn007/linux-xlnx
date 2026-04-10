@@ -23,7 +23,7 @@
 	};
 
 	chosen {
-		bootargs = "earlycon";
+		bootargs = "earlycon iommu.passthrough=1";
 		stdout-path = "serial0:115200";
 	};
 
